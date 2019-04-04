@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* **[MainWindow.xaml](./CS/SqlGeometryDataAdapterExample/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/SqlGeometryDataAdapterExample/MainWindow.xaml.vb))**
+* **[MainWindow.xaml](./CS/SqlGeometryDataAdapterExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/SqlGeometryDataAdapterExample/MainWindow.xaml))**
 * [MainWindow.xaml.cs](./CS/SqlGeometryDataAdapterExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/SqlGeometryDataAdapterExample/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to: Load shapes from a SQL Geometry datasource
