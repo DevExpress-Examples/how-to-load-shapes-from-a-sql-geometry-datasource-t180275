@@ -5,8 +5,11 @@
         x:Class="SqlGeometryDataAdapterExample.MainWindow"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <dxm:MapControl>
-            <dxm:VectorLayer>
+        <dxm:MapControl x:Name="mapControl">
+            <dxm:MapControl.MapEditor>
+                <dxm:MapEditor MapItemEdited="MapEditor_MapItemEdited"/>
+            </dxm:MapControl.MapEditor>
+            <dxm:VectorLayer DataLoaded="VectorLayer_DataLoaded">
                 <dxm:VectorLayer.ShapeTitleOptions>
                     <dxm:ShapeTitleOptions Pattern="{}{TextCol}"
                                            Visible="True"/>
